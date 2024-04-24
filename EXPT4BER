@@ -31,3 +31,14 @@ plt.xlabel('Eb/No, dB')
 plt.ylabel('Bit Error Rate')
 plt.title('BER for BPSK modulation in Rayleigh channel')
 plt.show()
+
+
+(a) Generation of random BPSK modulated symbols +1's and -1's
+
+(b) Passing them through Additive White Gaussian Noise channel
+
+(c) Demodulation of the received symbol based on the location in the constellation
+
+(d) Counting the number of errors
+
+(e) Repeating the same for multiple Eb/No value.
